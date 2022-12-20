@@ -6,7 +6,7 @@ import time
 import picar
 import random
 
-force_turning = 0    # 0 = random direction, 1 = force left, 2 = force right, 3 = orderdly
+force_turning = 0   
 
 picar.setup()
 
@@ -18,8 +18,8 @@ fw.turning_max = 45
 forward_speed = 70
 backward_speed = 70
 
-back_distance = 10
-turn_distance = 20
+back_distance = -3
+turn_distance = -3
 
 timeout = 10
 last_angle = 90
